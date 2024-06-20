@@ -1,0 +1,130 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5096cf;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #5096cf;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #5096cf;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries */
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    aside {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    main {
+        padding: 0.75rem;
+    }
+
+    aside {
+        margin: 0.75rem 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 1.5rem;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    aside {
+        margin: 1rem 0;
+    }
+}
